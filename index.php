@@ -12,7 +12,7 @@ $sql_class = new Mysqlis();
 * @param url your proxy_url
 *return json 
 **/
-$proxy_url = 'http://112.124.117.191/workerman/get_proxy.php?count=50';
+$proxy_url = 'http://...';
 $proxys = json_decode($curl_class->request($proxy_url), true); //json2Array
 /**random proxy IP index
 *
